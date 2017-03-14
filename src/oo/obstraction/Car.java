@@ -6,9 +6,9 @@ public class Car {
   int cc;
   String type;
   public Car(String brand, String name, int cc, String type){
-          this.brand = new brand;
-          this.name = new name;
-          this cc = new cc;
-          this type = new type;
+          this.brand = brand;
+          this.name = name;
+          this.cc = cc;
+          this.type = type;
   }
 }
