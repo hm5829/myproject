@@ -5,6 +5,7 @@ public class Car {
   String name;
   int cc;
   String type;
+  int status;
   public Car(String brand, String name, int cc, String type){
           this.brand = brand;
           this.name = name;
