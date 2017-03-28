@@ -7,8 +7,8 @@ public class BikeTester {
 		Bike b2 = new Bike("Giant", "ATX 27.5", 15800, "Road bicycle");
 		int[] n = new int[4];
 		System.out.println(n[2]);
-		
-		Bike b = new Bike[2];
+
+		Bike[] b = new Bike[2];
 		b[0] = new Bike("Giant", "ESCAPE 1", 13800, "Road bicycle");
 		b[1] = new Bike("Giant", "ATX 27.5", 15800, "Road bicycle");
 		System.out.println(b[0].name);
@@ -18,9 +18,10 @@ public class BikeTester {
 		}
 		System.out.println(i);
 	}
-	class AA{
-		
+
+	class AA {
+
 	}
+
 	AA a = new AA();
 }
-
