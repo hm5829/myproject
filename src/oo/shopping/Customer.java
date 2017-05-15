@@ -2,17 +2,15 @@ package oo.shopping;
 
 public class Customer {
 	int price;
-	int discount;
+	int pay;
 	int payback;
-	public Customer(int price, int discount, int payback) {
-		this.price = price;
-		this.discount = discount;
-		this.payback = payback;
-	}
-	public void print(){
-		System.out.println(price + "\n" + discount + "\n" + payback);
-	}
-	{
-		
-	}
+		public void pay(int price) {
+			pay = price;
+			System.out.println("應付金額" + pay);
+		}
+		public void moneyback(int price) {
+			payback = price * 0;
+			System.out.println("回饋金" + payback);
+		}
+	
 }
