@@ -8,7 +8,7 @@ public class Silver extends Customer {
 
 	public void moneyback(int price) {
 		price = 6000;
-		payback = price * 0;
+		payback = 0;
 		System.out.println("銀級回饋金" + payback);
 	}
 }
