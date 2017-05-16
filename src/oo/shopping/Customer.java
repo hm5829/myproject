@@ -2,10 +2,10 @@ package oo.shopping;
 
 public class Customer {
 	int price;
-	int pay;
+	int discount;
 	int payback;
 		public void pay(int price) {
-			pay = price;
+			discount = price;
 			System.out.println("應付金額" + pay);
 		}
 		public void payback(int price) {
