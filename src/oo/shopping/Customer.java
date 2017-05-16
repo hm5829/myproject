@@ -4,7 +4,7 @@ public class Customer {
 	int price;
 	int discount;
 	int payback;
-		public void pay(int price) {
+		public void discount(int price) {
 			discount = price;
 			System.out.println("應付金額" + pay);
 		}
