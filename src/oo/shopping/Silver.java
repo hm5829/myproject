@@ -6,9 +6,5 @@ public class Silver extends Customer {
 		System.out.println("銀級應付金額" + pay);
 	}
 
-	public void payback(int price) {
-		price = 6000;
-		payback = 0;
-		System.out.println("銀級回饋金" + payback);
-	}
+	
 }
