@@ -9,7 +9,7 @@ public class Customer {
 			System.out.println("應付金額" + pay);
 		}
 		public void moneyback(int price) {
-			payback = price * 0;
+			payback = 0;
 			System.out.println("回饋金" + payback);
 		}
 	
