@@ -1,10 +1,16 @@
 package oo.shopping;
 
 public class Silver extends Customer {
-	public void discount(int price) {
-		discount = price * 9 / 10;
-		System.out.println("銀級應付金額" + pay);
+	float discount = 0.1f;
+	
+	public Silver(int amount){
+		super(amount);
 	}
 
+	@Override
+	public void print() {
+		System.out.println(amount + "\t" + (amount*discount) +
+				"\t0");
+	}
 	
 }
